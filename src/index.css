@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+    body {
+        @apply font-kalam min-h-screen;
+    }
+    section {
+        @apply p-[5%];
+    }
+}
+
+#navbar {
+    background-color: rgba(196, 210, 242, 0.617);
+}
+
+#logo {
+    font-weight: 700;
+    color: black;
+    font-size: 26px;
+}
+
+.logo1 {
+    color: green;
+}
+
+.logo2 {
+    color: red;
+}
+
+#home {
+    color: rgb(252, 252, 251);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+#M {
+    color: red;
+}
+
+.intro {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.reviews {
+    background: url("./assets//images/reviews-img.jpg"), linear-gradient(#0098a1, #0098a1) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+#getTouch {
+    background-color: white;
+    color: rgb(28, 31, 31);
+}
+
+.newsletter {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./assets//images/newsletter-img.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+#about1 {
+    white-space: pre-line;
+    padding-left: 50px;
+}
+
+#aboutimg {
+    width: 650px;
+    padding-right: 50px;
+}
+
+#about {
+    background-color: #dfeced;
+    color: black;
+}
+
+#aboutus {
+    font-size: 45px;
+}
+
+#feature {
+    font-size: 45px;
+    background-color: #dfeced;
+    color: darkblue;
+}
+
+#gallery {
+    font-size: 45px;
+    background-color: #dfeced;
+    color: darkblue;
+}
+
+#contact {
+    background-color: #dfeced;
+    color: darkblue;
+}
+
+#review {
+    background-color: #d8e1f1;
+}
+
+#reviewtext {
+    color: rgb(111, 109, 109);
+}
+
+#card {
+    background-color: #8aa4d5;
+    color: black;
+}
+
+#name {
+    color: darkblue;
+}
